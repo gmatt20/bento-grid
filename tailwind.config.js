@@ -6,6 +6,9 @@ module.exports = {
       fontFamily: {
         sans: ['"DM Sans"', "sans-serif"],
       },
+      gridTemplateColumns: {
+        "custom-columns": "1fr 3fr 1fr",
+      },
     },
   },
   plugins: [],
