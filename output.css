@@ -554,10 +554,6 @@ video {
   display: none;
 }
 
-.col-start-1 {
-  grid-column-start: 1;
-}
-
 .col-start-2 {
   grid-column-start: 2;
 }
@@ -566,8 +562,12 @@ video {
   grid-column-start: 3;
 }
 
-.col-end-3 {
-  grid-column-end: 3;
+.col-end-4 {
+  grid-column-end: 4;
+}
+
+.col-end-5 {
+  grid-column-end: 5;
 }
 
 .row-start-1 {
@@ -582,6 +582,14 @@ video {
   grid-row-start: 4;
 }
 
+.row-start-5 {
+  grid-row-start: 5;
+}
+
+.row-start-7 {
+  grid-row-start: 7;
+}
+
 .row-end-3 {
   grid-row-end: 3;
 }
@@ -592,6 +600,18 @@ video {
 
 .row-end-5 {
   grid-row-end: 5;
+}
+
+.row-end-7 {
+  grid-row-end: 7;
+}
+
+.row-end-9 {
+  grid-row-end: 9;
+}
+
+.row-end-6 {
+  grid-row-end: 6;
 }
 
 .my-4 {
@@ -640,6 +660,15 @@ video {
   height: 100vh;
 }
 
+.h-fit {
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.h-full {
+  height: 100%;
+}
+
 .w-40 {
   width: 10rem;
 }
@@ -669,16 +698,28 @@ video {
   width: fit-content;
 }
 
+.w-full {
+  width: 100%;
+}
+
 .w-screen {
   width: 100vw;
 }
 
-.grid-cols-3 {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+.grid-cols-custom-columns {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.grid-rows-4 {
-  grid-template-rows: repeat(4, minmax(0, 1fr));
+.grid-rows-6 {
+  grid-template-rows: repeat(6, minmax(0, 1fr));
+}
+
+.grid-rows-7 {
+  grid-template-rows: repeat(7, minmax(0, 1fr));
+}
+
+.grid-rows-8 {
+  grid-template-rows: repeat(8, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -689,12 +730,20 @@ video {
   align-items: center;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .gap-5 {
   gap: 1.25rem;
 }
 
 .gap-7 {
   gap: 1.75rem;
+}
+
+.self-center {
+  align-self: center;
 }
 
 .overflow-hidden {
@@ -739,6 +788,11 @@ video {
   background-color: rgb(250 204 21 / var(--tw-bg-opacity, 1));
 }
 
+.object-center {
+  -o-object-position: center;
+     object-position: center;
+}
+
 .p-1 {
   padding: 0.25rem;
 }
@@ -749,6 +803,22 @@ video {
 
 .p-5 {
   padding: 1.25rem;
+}
+
+.p-48 {
+  padding: 12rem;
+}
+
+.p-20 {
+  padding: 5rem;
+}
+
+.p-12 {
+  padding: 3rem;
+}
+
+.p-40 {
+  padding: 10rem;
 }
 
 .px-4 {
@@ -769,6 +839,11 @@ video {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.px-40 {
+  padding-left: 10rem;
+  padding-right: 10rem;
 }
 
 .pb-0 {

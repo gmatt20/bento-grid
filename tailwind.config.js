@@ -7,7 +7,8 @@ module.exports = {
         sans: ['"DM Sans"', "sans-serif"],
       },
       gridTemplateColumns: {
-        "custom-columns": "1fr 3fr 1fr",
+        "custom-columns": "1fr 1fr 1fr 1fr",
+        "custom-rows": "1fr 1fr 1fr",
       },
     },
   },
